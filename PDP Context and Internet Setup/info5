@@ -1,0 +1,9 @@
+A PDP (Packet Data Protocol) context is configured to enable internet connectivity over a cellular modem (GSM/3G/4G). 
+This is done using the AT+CGDCONT command, which defines how the modem connects to the mobile network for data services. 
+The most essential component of this configuration is the Access Point Name (APN), which is provided by the mobile network operator of the SIM card.
+The AT+CGDCONT command is used to define a PDP context. The basic syntax is: AT+CGDCONT=<cid>,<PDP_type>,<APN>[,<PDP_addr>[,<d_comp>,<h_comp>]]
+•	<cid> is the context ID, typically set to 1.
+•	<PDP_type> defines the protocol, usually "IP" or "IPV6".
+•	<APN> is the network’s APN name (e.g., "airtelgprs.com").
+•	<PDP_addr> can be left empty for dynamic IP.
+•	<d_comp> and <h_comp> handle compression, usually set to 0.
