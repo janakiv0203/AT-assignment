@@ -1,1 +1,14 @@
+RSSI Value Reference Table:
+RSSI (CSQ value)	Signal Strength    	Approx dBm
+0	                  <-113 dBm         Very poor
+5	                  -103 dBm	        Poor
+10	                -93 dBm	          Fair
+15	                -83 dBm	          Good
+20	                -73 dBm	          Very Good
+25	                -63 dBm	          Excellent
+31	                >-51 dBm	        Outstanding
+99	                Not known	        Error/Invalid
+
+RSSI to dBm conversion formula = dBm = -113 + (RSSI × 2)
+For RSSI = 21, dBm = -113 + (21 × 2) = -71 dBm
 
