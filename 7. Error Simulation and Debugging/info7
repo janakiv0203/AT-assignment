@@ -1,0 +1,1 @@
+AT+CMEE=2 : Enables verbose numeric error reporting from the module, helping with debugging.
